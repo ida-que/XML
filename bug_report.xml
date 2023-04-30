@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bugReportExample>
-  <id>Inception</id>
+  <id>171</id>
   <severity>minor</severity>
   <priority>low</priority>
   <title>Space character in img src URL of the 'CFD vs Aktien' image of [CFD vs share trading] sidebar item</title>
