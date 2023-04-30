@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReportExample>
+  <id>Inception</id>
+  <severity>minor</severity>
+  <priority>low</priority>
+  <title>Space character in img src URL of the 'CFD vs Aktien' image of [CFD vs share trading] sidebar item</title>
+  <environment>
+    <value>Windows 10 Chrome 112</value>
+    <value>iPhone 11 16.4.1 Safari</value>
+  </environment>
+  <stepsToReproduce>
+    <step>1. Navigate to capital.com</step>
+    <step>2. Choose language DE</step>
+    <step>3. Hover on menu section [Schulung] (EN: Education)</step
+    <step>4. Click menu item [CFD-Handel] (EN: CFD trading)</step>
+    <step>5. Click sidebar item [Was ist der Unterschied zwischen Aktien und CFD?] (EN: CFDs vs share trading)</step>
+    <step>6. Open devtools and look at the img src href</step>
+  </stepsToReproduce>
+  <precondition>none</precondition>
+  <expectedResult>img src URL has no spaces so the image is displayed on the webpage</expectedResult>
+  <actualResult>img src URL has a space so the image is not displayed on the webpage</actualResult>
+  <attachment>(URL to the video)</attachment>
+  <postcondition>none</postcondition>
+  <reproducibility>n/a</reproducibility>
+  <author>ida-que</author>
+</bugReportExample>
